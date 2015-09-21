@@ -23,14 +23,22 @@ public class MyDataStructure
 		title=a;
 	}
 	
-	public void setLife(int a)
+	public void setLife(boolean a)
 	{
 		isAlive=a;
 	}
 	
 	public int getAge()
 	{
-		return age:
+		return age;
+	}
+	public String getTitle()
+	{
+		return title;
+	}
+	public boolean getLife()
+	{
+		return isAlive;
 	}
 	
 
