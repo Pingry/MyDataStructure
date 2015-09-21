@@ -1,31 +1,31 @@
 public class MyDataStructure
 {
-	private int anything;
-	private String something;
-	private double thing;
+	private int age;
+	private String name;
+	private int form;
 	
-	public MyDataStructure(int a, String b, double c)
+	public MyDataStructure(int a, String b, int c)
 	{
-		anything=a;
-		something=b;
-		thing = c;
+		age=a;
+		name=b;
+		form = c;
 	}
 	
-	public MyDataStructure(int a, double c)
+	public MyDataStructure(int a, int c)
 	{
-		anything = a;
-		something = "Billy";
-		thing = c;
+		age = a;
+		name = "Billy";
+		form = c;
 	}
 	
-	public void changeAnything(int a)
+	public void changeAge(int a)
 	{
-		anything = a;
+		age = a;
 	}
 	
-	public String getSomething ()
+	public String getName ()
 	{
-		return something;
+		return name;
 	}
 	
 }
